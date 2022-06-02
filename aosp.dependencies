@@ -23,12 +23,6 @@
     "remote": "gitlab"
   },
   {
-    "repository": "EcrosoftXiao/vendor_xiaomi_mars-miuicamera",
-    "target_path": "vendor/xiaomi/mars-miuicamera",
-    "branch": "twelve",
-    "remote": "gitlab"
-  },
-  {
     "repository" : "jjpprrrr/prelude-clang",
     "target_path" : "prebuilts/clang/host/linux-x86/clang-prelude",
     "branch" : "master",
