@@ -5,19 +5,19 @@
     "branch": "twelve"
   },
   {
-    "repository":  "kernel_xiaomi_mars",
-    "target_path": "kernel/xiaomi/mars",
+    "repository":  "kernel_xiaomi_vili",
+    "target_path": "kernel/xiaomi/vili",
     "branch": "twelve"
   },
   {
-    "repository": "vendor_xiaomi_mars",
-    "target_path": "vendor/xiaomi/mars",
+    "repository": "vendor_xiaomi_vili",
+    "target_path": "vendor/xiaomi/vili",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   },
   {
-    "repository": "vendor_xiaomi_mars-firmware",
-    "target_path": "vendor/xiaomi/mars-firmware",
+    "repository": "vendor_xiaomi_vili-firmware",
+    "target_path": "vendor/xiaomi/vili-firmware",
     "branch": "twelve",
     "remote": "pixel-devices-blobs"
   }

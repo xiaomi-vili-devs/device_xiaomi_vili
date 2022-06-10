@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/mars
+DEVICE_PATH := device/xiaomi/vili
 
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
-TARGET_BOOTLOADER_BOARD_NAME := mars
+TARGET_BOOTLOADER_BOARD_NAME := vili
 
 # Display
 TARGET_SCREEN_DENSITY := 560
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := mars|star
+TARGET_OTA_ASSERT_DEVICE := vili
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mars
-TARGET_KERNEL_CONFIG := vendor/mars_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/vili
+TARGET_KERNEL_CONFIG := vendor/vili_defconfig
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
@@ -36,5 +36,5 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 114001162240
 
 # Include proprietary files
-include vendor/xiaomi/mars/BoardConfigVendor.mk
--include vendor/xiaomi/mars-firmware/BoardConfigVendor.mk
+include vendor/xiaomi/vili/BoardConfigVendor.mk
+-include vendor/xiaomi/vili-firmware/BoardConfigVendor.mk
